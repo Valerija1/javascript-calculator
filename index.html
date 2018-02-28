@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+<body>
+
+    <div class="container-fluid my-5">
+      <div class="row justify-content-center">
+        <div class="rounded p-4 mt-md-5 my-sm-3 mx-3 bg-secondary mx-auto text-center col-xs-12 col-sm-8 col-md-7 col-lg-6 col-xl-4" id="calc">
+          <h2>calculator</h2>
+          <div class="row">
+            <input class="offset-1 col-10 mb-3 py-1 px-2 h4" id="display" type="text" type="number" step="0.01" placeholder="0">
+          </div> 
+
+          <div class="row">
+            <div class="col-3 p-1">
+              <a class="btn btn-danger text-white btn-block" id="ac">AC</a>
+            </div>
+            <div class="col-3 p-1">
+              <a class="btn btn-danger text-white btn-block" id="backspace">CE</a>
+            </div>
+            <div class="col-3 p-1">
+              <a class="btn bg-dark btn-block text-danger" id="sign">-/+</a>
+            </div>
+            <div class="col-3 p-1">
+              <a class="btn bg-dark btn-block text-danger" id="square">X<sup>2</sup></a>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="7">7</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="8">8</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="9">9</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="operator btn bg-dark btn-block text-danger" id="divide">/</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="4">4</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="5">5</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="6">6</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="operator btn bg-dark btn-block text-danger" id="times">*</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block " id="1">1</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="2">2</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="3">3</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="operator btn bg-dark btn-block text-danger" id="minus">-</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3 p-1">
+                <a class="number btn bg-dark text-white btn-block" id="0">0</a>
+              </div>
+              <div class="col-3 p-1">
+                <button class="operator btn bg-dark text-white btn-block clickable" type="button" id="dot">.</button>
+              </div>
+              <div class="col-3 p-1">
+                <a class="btn bg-dark btn-block text-danger" id="equal">=</a>
+              </div>
+              <div class="col-3 p-1">
+                <a class="operator btn bg-dark btn-block text-danger" id="plus">+</a>
+              </div>
+            </div>
+
+         </div>
+      </div>
+    </div>
+
+    <footer class="footer bg-danger">
+      <div class="container text-white text-center">
+        <p>Designed and coded by Valerija © 2017</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

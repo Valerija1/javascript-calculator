@@ -1,0 +1,40 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: Orbitron, Sans-serif;
+  margin-bottom: 60px;
+ }
+
+#display{
+  /*width: 250px;*/
+  height: 40px;
+  /*padding-right: 7px;*/
+  border-radius: 5px;
+  text-align: right;
+ }
+ /*Hides spiner*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.clickable {
+  pointer-events : auto;
+  cursor: pointer;
+}
+.unclickable {
+  pointer-events: none;
+}
+
+/*Sticky Footer*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+	height: 60px;
+}
