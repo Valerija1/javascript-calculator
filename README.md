@@ -1,2 +1,3 @@
 # javascript-calculator
-A simple calculator using plain JavaScript
+A simple calculator built using plain JavaScript/HTML/Bootstrap as a FreeCodeCamp Front End Development project.
+
