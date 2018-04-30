@@ -119,7 +119,7 @@ function syntaxErr() {
 /*Determines whether the passed value is a finite number. 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite*/
 function test(number) {
-  //number = parseInt(number);
+  number = parseInt(number);
 
   if (Number.isFinite(number)) {
     console.log('Number is NOT Infinity.');
